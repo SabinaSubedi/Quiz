@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".QuizActivity">
+    <!-- Question 1-->
+
+    <TextView
+        style="@style/questionStyle"
+        android:text="Which is the only country with non rectantular or square flag ?" />
+
+    <RadioGroup
+        android:id="@+id/num_one_radio_group"
+        style="@style/radio_group">
+
+        <RadioButton
+            android:id="@+id/Antoine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="India" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Germany" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nepal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USA" />
+    </RadioGroup>
+
+    <!-- Question 2-->
+
+    <TextView
+        style="@style/questionStyle"
+        android:text="Where is Mt. Everest located ?" />
+
+    <RadioGroup style="@style/radio_group">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Japan" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nepal" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="China" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dubai" />
+    </RadioGroup>
+
+
+    <!-- Question 3 -->
+    <TextView
+        style="@style/questionStyle"
+        android:text="The district of Mustang is known for its abundant crop of which fruit?" />
+
+    <CheckBox
+        android:id="@+id/nit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mango" />
+
+    <CheckBox
+        android:id="@+id/Ni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banana" />
+
+    <CheckBox
+        android:id="@+id/N"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grape" />
+
+    <CheckBox
+        android:id="@+id/Nitr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apple" />
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:backgroundTint="#959190"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
